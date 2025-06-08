@@ -40,3 +40,13 @@ Key Considerations When Extracting the Notification Service:
 
 In summary, to extract the notification system from your legacy .NET 4.8 monolith, begin by defining your clear goal for the migration. Consider using the Branch by Abstraction pattern to incrementally pull the notification logic out by creating an abstraction in the monolith and gradually replacing the internal implementation with calls to your new microservice. Plan for migrating any notification-specific data and choose an appropriate communication style. Crucially, invest in rigorous testing and verification techniques like Parallel Run and automated tests, and ensure you have foundational operational capabilities like log aggregation in place.
 
+---
+### References:
+- **Monolith to Microservices** by Sam Newman
+- **Designing Distributed Systems** by Brendan Burns
+- **Building Microservices** by Sam Newman
+- **Refactoring: Improving the Design of Existing Code** by Martin Fowler et al.
+- **Software Architecture: The Hard Parts** by Neal Ford, Mark Richards, Pramod Sadalage, and Zhamak Dehghani
+- **Designing Data-Intensive Applications** by Martin Kleppmann
+- **Practical Microservices Architectural Patterns** by Binildas Christudas
+
