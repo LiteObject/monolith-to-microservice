@@ -42,11 +42,9 @@ In summary, to extract the notification system from your legacy .NET 4.8 monolit
 
 ---
 ### References:
+- **Building Microservices: Designing Fine-Grained Systems** by Sam Newman
 - **Monolith to Microservices** by Sam Newman
-- **Designing Distributed Systems** by Brendan Burns
-- **Building Microservices** by Sam Newman
-- **Refactoring: Improving the Design of Existing Code** by Martin Fowler et al.
-- **Software Architecture: The Hard Parts** by Neal Ford, Mark Richards, Pramod Sadalage, and Zhamak Dehghani
-- **Designing Data-Intensive Applications** by Martin Kleppmann
+- **Mastering API Architecture: Design, Operate, and Evolve API-Based Systems** by James Gough, Daniel Bryant, Matthew Auburn- 
 - **Practical Microservices Architectural Patterns** by Binildas Christudas
+
 
