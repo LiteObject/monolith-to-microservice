@@ -25,9 +25,14 @@ Here's how DDD influences microservice architecture according to the sources:
    - This alignment supports the creation of **autonomous, stream-aligned teams**, which helps reduce delivery contention and speed up development. Conway's Law suggests that system design reflects the organization's communication structure, and aligning teams to domain-oriented microservices is a way to leverage this ("Inverse Conway Maneuver").
   
 5. Supporting Domain Understanding and Communication:
-   - DDD promotes developing a common, ubiquitous language shared by domain experts and developers. This shared vocabulary is invaluable for defining clear APIs, event formats, and other interfaces between services.
-  
+   - DDD promotes developing a **common, ubiquitous language** shared by domain experts and developers. This shared vocabulary is invaluable for defining clear APIs, event formats, and other interfaces between services.
+   - DDD helps improve domain expertise within teams and builds understanding and empathy for users. Techniques like Event Storming (a collaborative exercise often used in DDD) can help shape domain models with non-developer colleagues.
 
+6. Guiding Implementation and Prioritization:
+   - DDD concepts like BCs and Aggregates provide logical units for decomposition and can help prioritize which parts of a monolithic system to extract first, based on the relationships and dependencies between these units.
+   - Within a microservice, DDD patterns like domain layers, entities, value objects, and aggregates can guide the internal design, especially for complex business logic. Patterns like CQRS and Event-Driven Architecture are often applied within or between DDD-oriented microservices to handle complex workflows and eventual consistency.
 
+DDD provides the conceptual framework (Bounded Contexts, Aggregates, Ubiquitous Language) and principles (Information Hiding, Cohesion, Coupling) that are **essential for successfully designing microservice boundaries**. It helps ensure the resulting architecture is aligned with business capabilities, supports independent development and deployment, facilitates team autonomy, and manages the inherent complexity of distributed systems. While defining these boundaries accurately can be challenging, DDD is widely considered a vital tool in the microservice architect's toolkit.
 
-### Eeferences:
+---
+### References:
