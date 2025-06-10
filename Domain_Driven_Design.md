@@ -21,3 +21,13 @@ Here's how DDD influences microservice architecture according to the sources:
    - The microservice should **hide its internal implementation details**, including its data storage. This is a key aspect of DDD's information hiding and is vital for stable boundaries and independent deployability. Sharing databases directly between microservices is problematic and undermines independent deployability.
   
 4. Aligning Architecture with Organization:
+   - Aligning microservices with domain boundaries and bounded contexts makes it easier to align development teams with specific lines of business.
+   - This alignment supports the creation of **autonomous, stream-aligned teams**, which helps reduce delivery contention and speed up development. Conway's Law suggests that system design reflects the organization's communication structure, and aligning teams to domain-oriented microservices is a way to leverage this ("Inverse Conway Maneuver").
+  
+5. Supporting Domain Understanding and Communication:
+   - DDD promotes developing a common, ubiquitous language shared by domain experts and developers. This shared vocabulary is invaluable for defining clear APIs, event formats, and other interfaces between services.
+  
+
+
+
+### Eeferences:
