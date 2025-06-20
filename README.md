@@ -1,6 +1,6 @@
 # Monolith to Microservice: A Practical Guide
 
-This repository provides a concise, practical guide for decomposing a legacy monolithic application into microservices. It covers the motivations, patterns, and domain-driven design principles essential for a successful migration.
+This repository provides a comprehensive guide for decomposing a legacy monolithic application into microservices, with a focus on notification systems. It covers motivations, migration patterns, domain-driven design (DDD) principles, and both cloud-native and cloud-agnostic architecture options.
 
 ## Contents
 
@@ -13,6 +13,12 @@ This repository provides a concise, practical guide for decomposing a legacy mon
 - **3_Domain_Driven_Design.md**  
   Describes how Domain-Driven Design (DDD) principles help define microservice boundaries, promote independent deployability, encapsulate domain logic, align architecture with organizational structure, and support effective communication and prioritization.
 
+- **4_1_Cloud_Native_Design.md**  
+  Presents a cloud-native notification microservice design using AWS managed services (Lambda, SQS, EventBridge, DynamoDB, SES/SNS) and DDD. Focuses on leveraging cloud provider infrastructure for scalability, resilience, and operational efficiency.
+
+- **4_2_Cloud_Agnostic_Design.md**  
+  Provides a cloud-agnostic notification microservice design using open standards and portable technologies (e.g., containers, Kafka/RabbitMQ, MongoDB/Postgres, Redis, SMTP/Twilio, MinIO, Prometheus/Grafana). Ensures portability across any cloud or on-premises environment while maintaining strong domain boundaries.
+
 ## How to Use
 
 1. **Understand the Why**  
@@ -23,6 +29,10 @@ This repository provides a concise, practical guide for decomposing a legacy mon
 
 3. **Design with the Domain in Mind**  
    Use `3_Domain_Driven_Design.md` to apply DDD concepts for defining service boundaries and aligning your architecture with business needs.
+
+4. **Choose Your Architecture**  
+   - For AWS or cloud-native environments, see `4_1_Cloud_Native_Design.md`.
+   - For multi-cloud or on-premises portability, see `4_2_Cloud_Agnostic_Design.md`.
 
 ## References
 
@@ -35,6 +45,6 @@ This repository provides a concise, practical guide for decomposing a legacy mon
 
 ---
 
-This README provides an overview and navigation for anyone using your documentation to plan or execute a monolith-to-microservices migration.
+This README provides an overview and navigation for anyone using your documentation to plan or execute a monolith-to-microservices migration, with options for both cloud-native and cloud-agnostic architectures.
 
 
