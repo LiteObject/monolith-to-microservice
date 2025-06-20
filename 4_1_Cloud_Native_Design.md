@@ -1,4 +1,4 @@
-# Enhanced Cloud Native Notification Microservice Design
+# Proposed Cloud Native Notification Microservice Design
 
 This approach combines domain-driven design principles with AWS cloud-native services to create a robust, scalable notification microservice that minimizes operational overhead while maintaining strong domain boundaries.
 
